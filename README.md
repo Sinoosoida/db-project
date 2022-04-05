@@ -38,7 +38,7 @@
 | order_id | orders`s ID | SERIAL | NOT NULL |
 | customer_id | user`s ID | SERIAL | NOT NULL |
 | product_id | product`s ID | SERIAL | NOT NULL |
-| product_num | product`s number | INTEGER | NOT NULL |
+| product_number | product`s number | INTEGER | NOT NULL |
 | product | product`s number | INTEGER | NOT NULL |
 
 #### Orders_hist
@@ -47,7 +47,7 @@
 | order_id | orders`s ID | SERIAL | NOT NULL |
 | customer_id | user`s ID | SERIAL | NOT NULL |
 | product_id | product`s ID | SERIAL | NOT NULL |
-| product_num | product`s number | INTEGER | NOT NULL |
+| product_number | product`s number | INTEGER | NOT NULL |
 | product | product`s number | INTEGER | NOT NULL |
 | date_time | version_control | timestamp | NOT NULL |
 
@@ -55,7 +55,7 @@
 | Field name | Description | Data type | Restrictions |
 |---|---|---|---| 
 | product_id | product`s ID | SERIAL | NOT NULL |
-| product_num | product`s number | INTEGER | NOT NULL |
+| product_number | product`s number | INTEGER | NOT NULL |
 
 #### producers
 | Field name | Description | Data type | Restrictions |
