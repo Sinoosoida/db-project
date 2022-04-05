@@ -45,7 +45,7 @@
 | product_id | product`s ID | SERIAL | NOT NULL |
 | product_num | product`s number | INTEGER | NOT NULL |
 
-#### customers
+#### producers
 | Field name | Description | Data type | Restrictions |
 |---|---|---|---| 
 | producer_id | producer`s ID | SERIAL | NOT NULL UNIQUE PRIMARY KEY |
