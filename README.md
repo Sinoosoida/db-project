@@ -40,6 +40,8 @@
 | product_id | product`s ID | SERIAL | NOT NULL |
 | product_number | product`s number | INTEGER | NOT NULL |
 | product | product`s number | INTEGER | NOT NULL |
+| start_time | deliver after | timestamp | NOT NULL |
+| end_time | deliver to | timestamp | NOT NULL |
 
 #### Order_hist
 | Field name | Description | Data type | Restrictions |
@@ -49,7 +51,8 @@
 | product_id | product`s ID | SERIAL | NOT NULL |
 | product_number | product`s number | INTEGER | NOT NULL |
 | product | product`s number | INTEGER | NOT NULL |
-| date_time | version_control | timestamp | NOT NULL |
+| start_time | deliver after | timestamp | NOT NULL |
+| end_time | deliver to | timestamp | NOT NULL |
 
 #### stock
 | Field name | Description | Data type | Restrictions |
