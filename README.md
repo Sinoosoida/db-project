@@ -31,13 +31,24 @@
 | product_description |  product`s description | VARCHAR(40) | NOT NULL |
 | price | price | INGEGER | NOT NULL |
 
-#### Orders
+#### Orders (версионная таблица)
 | Field name | Description | Data type | Restrictions |
 |---|---|---|---| 
 | order_id | orders`s ID | SERIAL | NOT NULL |
 | customer_id | user`s ID | SERIAL | NOT NULL |
 | product_id | product`s ID | SERIAL | NOT NULL |
 | product_num | product`s number | INTEGER | NOT NULL |
+| product | product`s number | INTEGER | NOT NULL |
+
+#### Orders_hist
+| Field name | Description | Data type | Restrictions |
+|---|---|---|---| 
+| order_id | orders`s ID | SERIAL | NOT NULL |
+| customer_id | user`s ID | SERIAL | NOT NULL |
+| product_id | product`s ID | SERIAL | NOT NULL |
+| product_num | product`s number | INTEGER | NOT NULL |
+| product | product`s number | INTEGER | NOT NULL |
+| date_time | version_control | timestamp | NOT NULL |
 
 #### stock
 | Field name | Description | Data type | Restrictions |
