@@ -32,7 +32,7 @@
 | product_description |  product`s description | VARCHAR(40) | NOT NULL |
 | price | price | INGEGER | NOT NULL |
 
-#### Orders (версионная таблица)
+#### Order (версионная таблица)
 | Field name | Description | Data type | Restrictions |
 |---|---|---|---| 
 | order_id | orders`s ID | SERIAL | NOT NULL |
@@ -41,7 +41,7 @@
 | product_number | product`s number | INTEGER | NOT NULL |
 | product | product`s number | INTEGER | NOT NULL |
 
-#### Orders_hist
+#### Order_hist
 | Field name | Description | Data type | Restrictions |
 |---|---|---|---| 
 | order_id | orders`s ID | SERIAL | NOT NULL |
